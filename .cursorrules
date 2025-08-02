@@ -1,0 +1,125 @@
+# Goupil Construction Website Rules
+
+## Accessibility Rules
+
+- All images must have descriptive alt text
+- All interactive elements must have proper ARIA labels
+- Color contrast must meet WCAG 2.1 AA standards
+- All form inputs must have associated labels
+- Focus states must be visible and consistent
+- Skip links must be available for keyboard navigation
+- All content must be accessible via keyboard
+- Semantic HTML must be used appropriately
+- ARIA landmarks must be used for major page sections
+- Error messages must be clear and accessible
+
+## Responsive Design Rules
+
+- Mobile-first approach for all components
+- Breakpoints:
+  - Mobile: < 640px
+  - Tablet: 640px - 1024px
+  - Desktop: > 1024px
+- Images must be responsive and use next/image
+- Text must be readable at all viewport sizes
+- Touch targets must be at least 44x44px
+- Layout must adapt to different screen sizes
+- No horizontal scrolling on mobile
+- Proper spacing on all devices
+- Flexible grid systems
+- Responsive typography
+
+## Translation Rules
+
+- All text content must be in translations.ts
+- Translation keys must be organized by section:
+  - nav: Navigation items
+  - hero: Hero section content
+  - features: Features section content
+  - projects: Projects section content
+  - contact: Contact section content
+  - footer: Footer content
+- Each section must have:
+  - title: Section title
+  - subtitle: Section subtitle
+  - content: Section-specific content
+- All dynamic content must use translation keys
+- Language switcher must be accessible
+- Default language must be French
+- All dates must be localized
+- All numbers must be properly formatted
+- All currencies must be properly formatted
+
+## Component Structure
+
+- Each component must be in its own file
+- Components must be organized by feature
+- Each component must have:
+  - Proper TypeScript types
+  - Accessibility attributes
+  - Responsive classes
+  - Translation support
+- Client components must be marked with "use client"
+- Server components should be the default
+- Components must be reusable
+- Props must be properly typed
+- Components must handle loading states
+- Components must handle error states
+
+## Code Style
+
+- Use TypeScript for type safety
+- Use Tailwind CSS for styling
+- Use ESLint for code quality
+- Use Prettier for code formatting
+- Follow Next.js best practices
+- Use proper naming conventions
+- Write meaningful comments
+- Keep components small and focused
+- Use proper error handling
+- Follow React best practices
+
+## Performance Rules
+
+- Optimize images
+- Use proper caching
+- Minimize bundle size
+- Use proper loading strategies
+- Optimize fonts
+- Use proper code splitting
+- Minimize re-renders
+- Use proper state management
+- Optimize API calls
+- Use proper error boundaries
+
+## Documentation Rules
+
+- Document component props
+- Document translation keys
+- Document accessibility features
+- Document responsive behavior
+- Document testing strategy
+- Document deployment process
+- Document code style
+- Document project structure
+- Document dependencies
+- Document environment variables
+
+## SEO Rules
+
+- All pages must have a unique, descriptive <title> and <meta name="description"> tag.
+- Use semantic HTML elements (<header>, <nav>, <main>, <section>, <article>, <footer>, etc.) for all content.
+- All images must have descriptive, relevant alt attributes.
+- Use heading tags (<h1>, <h2>, etc.) in a logical, hierarchical order—only one <h1> per page.
+- All links must use descriptive anchor text (never "click here").
+- Use Open Graph and Twitter Card meta tags for social sharing.
+- Ensure all pages are accessible and mobile-friendly (responsive).
+- Use structured data (JSON-LD) for key content (organization, products, articles, etc.) where relevant.
+- Avoid duplicate content; use canonical tags if necessary.
+- Ensure fast page load times (optimize images, use code splitting, etc.).
+- Use robots.txt and sitemap.xml for proper indexing.
+- All language versions must use proper hreflang tags.
+- Use clean, human-readable URLs.
+- Avoid inline styles and excessive use of !important.
+- All pages must be discoverable by search engines (no accidental noindex).
+- Use Next.js next/head for managing meta tags and SEO-related head elements.
