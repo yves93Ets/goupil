@@ -29,3 +29,6 @@ export default function Footer() {
     </footer>
   );
 }
+
+// -- deploy
+// -- make it cooler -> chatgpt

@@ -76,9 +76,9 @@ const translations = {
       send: "Send Message",
     },
     footer: {
-      companyName: "Goupil Construction",
+      companyName: "Habitat Nueva",
       description: "Professional construction and renovation services",
-      copyright: "© 2024 Goupil Construction. All rights reserved.",
+      copyright: "© 2024 Habitat Nueva. All rights reserved.",
     },
   },
   fr: {
@@ -146,9 +146,9 @@ const translations = {
       send: "Envoyer",
     },
     footer: {
-      companyName: "Goupil Construction",
+      companyName: "Habitat Nueva",
       description: "Services professionnels de construction et rénovation",
-      copyright: "© 2024 Goupil Construction. Tous droits réservés.",
+      copyright: "© 2024 Habitat Nueva. Tous droits réservés.",
     },
   },
 };
